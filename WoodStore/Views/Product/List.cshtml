@@ -1,0 +1,115 @@
+﻿@using WoodStore.Models.ViewModel
+@model ProductListViewModel
+
+@{
+    ViewBag.Title = "Store - All Products";
+}
+
+<h2>Store</h2>
+
+<!-- Search Filter Form -->
+<form asp-controller="Product" asp-action="List" method="get" class="mb-3">
+    <div class="form-row">
+        <!-- Product Name Search Bar -->
+        <div class="form-group col-md-4">
+            <label for="searchTerm">Product Name</label>
+            <input type="text" name="searchTerm" id="searchTerm" value="@Model.SearchTerm" class="form-control" placeholder="Search for products..." />
+        </div>
+        <!-- Weight Search Bar -->
+        <div class="form-group col-md-2">
+            <label for="weight">Min Weight</label>
+            <input type="number" name="weight" id="weight" class="form-control" placeholder="Weight" step="0.1" />
+        </div>
+        <!-- Price Search Bar -->
+        <div class="form-group col-md-2">
+            <label for="price">Min Price</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                </div>
+                <input type="number" name="price" id="price" class="form-control" placeholder="Price" step="0.01" />
+            </div>
+        </div>
+        <!-- Width Search Bar -->
+        <div class="form-group col-md-2">
+            <label for="width">Min Width (cm)</label>
+            <input type="number" name="width" id="width" class="form-control" placeholder="Width" step="0.1" />
+        </div>
+        <!-- Length Search Bar -->
+        <div class="form-group col-md-2">
+            <label for="length">Min Length (cm)</label>
+            <input type="number" name="length" id="length" class="form-control" placeholder="Length" step="0.1" />
+        </div>
+        <!-- Height Search Bar -->
+        <div class="form-group col-md-2">
+            <label for="height">Min Height (cm)</label>
+            <input type="number" name="height" id="height" class="form-control" placeholder="Height" step="0.1" />
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<hr />
+
+<!-- Grid Displaying Filtered Products -->
+<div class="product-grid">
+    @if (Model.Products != null && Model.Products.Any())
+    {
+        @foreach (var product in Model.Products)
+        {
+            <div class="product-card">
+                <h3>
+                    <a asp-controller="Product" asp-action="Details" asp-route-id="@product.Id">
+                        @product.Name
+                    </a>
+                </h3>
+                <p>@product.Description</p>
+                <p>
+                    Price:
+                    @if (product.IsDiscounted && product.DiscountPercent > 0)
+                    {
+                        <span style="text-decoration: line-through;">@product.Price.ToString("C")</span>
+                        <span class="text-success">@product.DiscountedPrice.ToString("C")</span>
+                        <small>(@product.DiscountPercent% off)</small>
+                    }
+                    else
+                    {
+                        @product.Price.ToString("C")
+                    }
+                </p>
+                <p>Weight: @product.Weight</p>
+                <p>Dimensions: @product.Width cm x @product.Length cm x @product.Height cm</p>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No products found.</p>
+    }
+</div>
+<!-- CSS For Testing -->
+<style>
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .product-card {
+        border: 1px solid #ccc;
+        padding: 1rem;
+        width: calc(33.333% - 1rem);
+        box-sizing: border-box;
+    }
+
+    .mb-3 {
+        margin-bottom: 1rem;
+    }
+
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+</style>

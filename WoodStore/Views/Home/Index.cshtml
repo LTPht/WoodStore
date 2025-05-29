@@ -1,0 +1,75 @@
+﻿@using WoodStore.Models.ViewModel
+@model HomeViewModel
+@{
+    ViewBag.Title = "Home";
+}
+<!-- Display Top 3 Products -->
+<section class="top-products">
+    <h2>Top 3 Most Purchased</h2>
+    <div class="horizontal-list">
+        @if (Model?.TopProducts != null && Model.TopProducts.Any())
+        {
+            @foreach (var product in Model.TopProducts)
+            {
+                <div class="product-card">
+                    <h3>
+                        <a asp-controller="Product" asp-action="Details" asp-route-id="@product.Id">
+                            @product.Name
+                        </a>
+                    </h3>
+                    <p>@product.Description</p>
+                    <p>Price: @product.Price.ToString("C")</p>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No top products available.</p>
+        }
+    </div>
+</section>
+<!-- Display Discounted Products -->
+<section class="discount-products">
+    <h2>Discounted Products</h2>
+    <div class="horizontal-list">
+        @if (Model?.DiscountedProducts != null && Model.DiscountedProducts.Any())
+        {
+            @foreach (var product in Model.DiscountedProducts)
+            {
+                <div class="product-card">
+                    <h3>
+                        <a asp-controller="Product" asp-action="Details" asp-route-id="@product.Id">
+                            @product.Name
+                        </a>
+                    </h3>
+                    <p>@product.Description</p>
+                    <p>
+                        Price:
+                        @if (product.IsDiscounted && product.DiscountPercent > 0)
+                        {
+                            <span style="text-decoration: line-through;">@product.Price.ToString("C")</span>
+                            <span class="text-success">@product.DiscountedPrice.ToString("C")</span>
+                            <small>(@product.DiscountPercent% off)</small>
+                        }
+                        else
+                        {
+                            @product.Price.ToString("C")
+                        }
+                    </p>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No discounted products available.</p>
+        }
+    </div>
+    <p class="reminder">
+        Note: Discounts apply only to users with an account.
+    </p>
+</section>
+
+<section class="store-navigation">
+    <h2>Explore the Store</h2>
+    <a asp-controller="Product" asp-action="List" class="btn btn-primary">Browse Store</a>
+</section>

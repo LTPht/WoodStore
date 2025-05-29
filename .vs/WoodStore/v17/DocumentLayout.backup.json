@@ -1,0 +1,657 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phatl\\source\\repos\\WoodStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\models\\customerrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\models\\customerrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\models\\productrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\models\\productrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\controllers\\admincustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\controllers\\admincustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\admin\\productmanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\admin\\productmanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\models\\viewmodel\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\models\\viewmodel\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\admin\\customermanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\admin\\customermanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\models\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\models\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\models\\viewmodel\\productlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\models\\viewmodel\\productlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\models\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\models\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\views\\account\\signupsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\views\\account\\signupsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\migrations\\20250430034230_addauthfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\migrations\\20250430034230_addauthfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\migrations\\20250429170342_initiatecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\migrations\\20250429170342_initiatecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\woodstore.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\woodstore.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\migrations\\20250430084841_addprofilepictureurltocustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\migrations\\20250430084841_addprofilepictureurltocustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|c:\\users\\phatl\\source\\repos\\woodstore\\woodstore\\migrations\\20250430120547_addisadmintocustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56D1C26-DCF4-4187-B15F-4EDF96294635}|WoodStore\\WoodStore.csproj|solutionrelative:woodstore\\migrations\\20250430120547_addisadmintocustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerRepos.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\CustomerRepos.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Models\\CustomerRepos.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\CustomerRepos.cs",
+              "RelativeToolTip": "WoodStore\\Models\\CustomerRepos.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA6wBUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:46:52.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WoodStore\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:27:09.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Program.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Program.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Program.cs",
+              "RelativeToolTip": "WoodStore\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:22:06.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\CartItem.cs",
+              "RelativeToolTip": "WoodStore\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:28:26.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\Cart.cs",
+              "RelativeToolTip": "WoodStore\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:08:21.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\Customer.cs",
+              "RelativeToolTip": "WoodStore\\Models\\Customer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:02:55.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T23:56:28.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\appsettings.json",
+              "RelativeDocumentMoniker": "WoodStore\\appsettings.json",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\appsettings.json",
+              "RelativeToolTip": "WoodStore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T10:21:59.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WoodStore\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:12:54.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductRepos.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\ProductRepos.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Models\\ProductRepos.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\ProductRepos.cs",
+              "RelativeToolTip": "WoodStore\\Models\\ProductRepos.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwDoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:57:29.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminCustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\AdminCustomerController.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Controllers\\AdminCustomerController.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\AdminCustomerController.cs",
+              "RelativeToolTip": "WoodStore\\Controllers\\AdminCustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:46:29.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminProductController.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\AdminProductController.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Controllers\\AdminProductController.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\AdminProductController.cs",
+              "RelativeToolTip": "WoodStore\\Controllers\\AdminProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T23:54:42.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WoodStore\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwDUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T02:09:41.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WoodStore\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:13:08.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductManager.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Admin\\ProductManager.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Admin\\ProductManager.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Admin\\ProductManager.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Admin\\ProductManager.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:22:51.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:01:18.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\ViewModel\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Models\\ViewModel\\AdminDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\ViewModel\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "WoodStore\\Models\\ViewModel\\AdminDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:46:42.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T12:32:48.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerManager.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Admin\\CustomerManager.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Admin\\CustomerManager.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Admin\\CustomerManager.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Admin\\CustomerManager.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:22:08.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WoodStore\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T00:03:14.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WoodStore\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:55:00.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T08:18:24.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Product\\List.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Product\\List.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Product\\List.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Product\\List.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T07:11:46.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T06:15:12.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T16:58:11.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T02:12:49.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Account\\Signup.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Account\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Account\\Signup.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Account\\Signup.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T00:05:49.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\ViewModel\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Models\\ViewModel\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\ViewModel\\ProfileViewModel.cs",
+              "RelativeToolTip": "WoodStore\\Models\\ViewModel\\ProfileViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:01:30.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\ViewModel\\ProductListViewModel.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Models\\ViewModel\\ProductListViewModel.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\ViewModel\\ProductListViewModel.cs",
+              "RelativeToolTip": "WoodStore\\Models\\ViewModel\\ProductListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:09:57.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\ViewModel\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Models\\ViewModel\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Models\\ViewModel\\HomeViewModel.cs",
+              "RelativeToolTip": "WoodStore\\Models\\ViewModel\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:57:27.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "WoodStore\\Data\\DbSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T11:53:36.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250430120547_AddIsAdminToCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Migrations\\20250430120547_AddIsAdminToCustomer.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Migrations\\20250430120547_AddIsAdminToCustomer.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Migrations\\20250430120547_AddIsAdminToCustomer.cs",
+              "RelativeToolTip": "WoodStore\\Migrations\\20250430120547_AddIsAdminToCustomer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T12:05:47.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T11:12:23.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T10:41:29.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SignupSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Account\\SignupSuccess.cshtml",
+              "RelativeDocumentMoniker": "WoodStore\\Views\\Account\\SignupSuccess.cshtml",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Views\\Account\\SignupSuccess.cshtml",
+              "RelativeToolTip": "WoodStore\\Views\\Account\\SignupSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T00:05:48.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250430084841_AddProfilePictureUrlToCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Migrations\\20250430084841_AddProfilePictureUrlToCustomer.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Migrations\\20250430084841_AddProfilePictureUrlToCustomer.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Migrations\\20250430084841_AddProfilePictureUrlToCustomer.cs",
+              "RelativeToolTip": "WoodStore\\Migrations\\20250430084841_AddProfilePictureUrlToCustomer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:48:41.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250430034230_AddAuthFields.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Migrations\\20250430034230_AddAuthFields.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Migrations\\20250430034230_AddAuthFields.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Migrations\\20250430034230_AddAuthFields.cs",
+              "RelativeToolTip": "WoodStore\\Migrations\\20250430034230_AddAuthFields.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T03:42:31.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250429170342_InitiateCreate.cs",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Migrations\\20250429170342_InitiateCreate.cs",
+              "RelativeDocumentMoniker": "WoodStore\\Migrations\\20250429170342_InitiateCreate.cs",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\Migrations\\20250429170342_InitiateCreate.cs",
+              "RelativeToolTip": "WoodStore\\Migrations\\20250429170342_InitiateCreate.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:03:43.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WoodStore",
+              "DocumentMoniker": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\WoodStore.csproj",
+              "RelativeDocumentMoniker": "WoodStore\\WoodStore.csproj",
+              "ToolTip": "C:\\Users\\phatl\\source\\repos\\WoodStore\\WoodStore\\WoodStore.csproj",
+              "RelativeToolTip": "WoodStore\\WoodStore.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-29T10:17:00.411Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

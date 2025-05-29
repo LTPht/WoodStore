@@ -1,0 +1,36 @@
+﻿@model WoodStore.Models.ViewModel.AdminDashboardViewModel
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Admin Dashboard";
+}
+
+<h2>Admin Dashboard</h2>
+
+<div>
+    <h3>Total Wood Planks in Stock: @Model.TotalStock</h3>
+</div>
+
+<div>
+    <h3>Wood Type Breakdown</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Wood Type</th>
+                <th>Percentage (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.WoodTypePercentages != null)
+            {
+                @foreach (var item in Model.WoodTypePercentages)
+                {
+                    <tr>
+                        <td>@item.Key</td>
+                        <td>@String.Format("{0:F2}", item.Value)%</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

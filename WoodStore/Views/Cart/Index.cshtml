@@ -1,0 +1,61 @@
+﻿@model WoodStore.Models.Cart
+@{
+    ViewBag.Title = "Your Cart";
+}
+
+<h2>Your Cart</h2>
+
+@if (Model.Items.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Dimensions<br />(Width x Length x Height)</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>
+                        <a asp-controller="Product" asp-action="Details" asp-route-id="@item.Product.Id">
+                            @item.Product.Name
+                        </a>
+                    </td>
+                    <td>
+                        @item.Product.Width cm x @item.Product.Length cm x @item.Product.Height cm
+                    </td>
+                    <td>
+                        <form asp-action="UpdateQuantity" method="post" style="display:inline;">
+                            <input type="hidden" name="productId" value="@item.Product.Id" />
+                            <button type="submit" name="change" value="-1">➖</button>
+                        </form>
+                        @item.Quantity
+                        <form asp-action="UpdateQuantity" method="post" style="display:inline;">
+                            <input type="hidden" name="productId" value="@item.Product.Id" />
+                            <button type="submit" name="change" value="1">➕</button>
+                        </form>
+                    </td>
+                    <td>@(item.Product.Price * item.Quantity).ToString("C")</td>
+                    <td>
+                        <form asp-action="Remove" method="post">
+                            <input type="hidden" name="productId" value="@item.Product.Id" />
+                            <button type="submit" class="btn btn-danger">Remove</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <hr />
+    <h3>Total Price: @Model.TotalPrice.ToString("C")</h3>
+}
+else
+{
+    <p>Your cart is empty.</p>
+}

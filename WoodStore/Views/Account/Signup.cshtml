@@ -1,0 +1,26 @@
+﻿@using WoodStore.Models.ViewModel
+@model WoodStore.Models.Customer
+@{
+    ViewBag.Title = "Sign Up";
+}
+
+<h2>Sign Up</h2>
+
+<form asp-action="Signup" method="post">
+    <div>
+        <label asp-for="Username">Username:</label>
+        <input asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Email">Email:</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="PasswordHash">Password:</label>
+        <input asp-for="PasswordHash" type="password" class="form-control" />
+        <span asp-validation-for="PasswordHash" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign Up</button>
+</form>

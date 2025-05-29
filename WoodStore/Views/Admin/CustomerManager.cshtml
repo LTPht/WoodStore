@@ -1,0 +1,36 @@
+﻿@using WoodStore.Models.ViewModel
+@model IEnumerable<WoodStore.Models.Customer>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Customer Management";
+}
+
+<h2>Customer Management</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Date Created</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model)
+        {
+            <tr>
+                <td>@customer.Username</td>
+                <td>@customer.Email</td>
+                <td>@customer.DateCreated.ToShortDateString()</td>
+                <td>|
+                    <a asp-controller="AdminCustomer" asp-action="Delete" asp-route-id="@customer.Uid"
+                       onclick="return confirm('Are you sure you want to delete this customer?');">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

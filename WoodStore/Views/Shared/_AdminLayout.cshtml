@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+        <title>Admin - @(ViewBag?.Title ?? "Admin")</title>
+    <link rel="stylesheet" href="~/css/admin.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Admin/Index">Dashboard</a></li>
+                <li><a href="Views/Admin/CustomerManager">Customer Management</a></li>
+                <li><a asp-controller="AdminProduct" asp-action="ProductManager">Product Management</a></li>
+                <li>
+                    <form id="logoutForm" asp-controller="Account" asp-action="Logout" method="post" style="display:inline;">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-link" style="padding:0;">Logout</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="admin-container">
+        @RenderBody()
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿@using WoodStore.Util
+@using WoodStore.Models
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Wood Store</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li>
+                    <a asp-controller="Admin" asp-action="Index">Admin</a>
+                </li>
+                <li>
+                    <a asp-controller="Product" asp-action="List">Store</a>
+                </li>
+                <li>
+                    @{
+                        // Retrieve the cart from session.
+                        var cart = ViewContext.HttpContext.Session.GetCart();
+                        var totalItems = cart?.TotalItems ?? 0;
+                    }
+                    <a asp-controller="Cart" asp-action="Index">Cart (@totalItems)</a>
+                </li>
+
+                @if (User.Identity != null && User.Identity.IsAuthenticated)
+                {
+                    <li>
+                        <a asp-controller="Account" asp-action="Profile">Profile</a>
+                    </li>
+                    <li>
+                        <form id="logoutForm" asp-controller="Account" asp-action="Logout" method="post" style="display:inline;">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-link" style="padding:0;">Logout</button>
+                        </form>
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <a asp-controller="Account" asp-action="Login">Login</a>
+                    </li>
+                    <li>
+                        <a asp-controller="Account" asp-action="Signup">Sign Up</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        @RenderBody()
+    </div>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
